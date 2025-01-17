@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MindAid - AI Agents for Mental Wellness 🌟
 
-## Getting Started
+MindAid is a web-based platform featuring multiple AI agents designed to provide mental health support, self-reflection tools, and motivational assistance for individuals in need. By combining cutting-edge AI technologies with thoughtful interaction design, MindAid aims to be a non-judgmental, accessible, and supportive companion for users navigating emotional challenges.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **AI-Powered Support Agents**:  
+  Engage with specialized AI agents tailored for various needs, such as stress relief, mindfulness, motivation, and emotional support.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Interactive and Adaptive Responses**:  
+  Conversations dynamically adapt to user input, offering personalized suggestions, reflections, and coping mechanisms.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Privacy First**:  
+  All conversations are secure and encrypted to protect user confidentiality and ensure a safe environment.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Multi-Language Support**:  
+  Communicate with AI agents in multiple languages, making MindAid accessible to a global audience.
 
-## Learn More
+- **Resource Suggestions**:  
+  AI agents can recommend mental health resources, activities, and professional help when needed.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend**:  
+  - React.js: For building a responsive and interactive user interface.  
+  - Tailwind CSS: For sleek, customizable, and accessible designs.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Backend**:  
+  - Node.js & Express.js: Handling server-side logic and API requests.  
+  - WebSocket: Enabling real-time interactions with AI agents.
 
-## Deploy on Vercel
+- **AI Integration**:  
+  - OpenAI API: For natural language understanding and response generation.  
+  - Fine-tuned GPT models: Custom-trained to handle mental health-related queries.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Database**:  
+  - MongoDB: Securely storing user preferences, interaction history, and analytics.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Security**:  
+  - JWT Authentication: Ensures secure user authentication.  
+  - HTTPS and data encryption for privacy.
