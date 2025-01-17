@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --primary: #10b981;
+  --primary-dark: #059669;
+  --primary-light: #34d399;
+  --glass: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  background-image: 
+    radial-gradient(circle at 0% 0%, #ecfdf5 0%, transparent 25%),
+    radial-gradient(circle at 100% 100%, #d1fae5 0%, transparent 25%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+.animation-delay-1000 {
+  animation-delay: 1s;
+}
+
+.animation-delay-3000 {
+  animation-delay: 3s;
+}
+
+.animation-delay-5000 {
+  animation-delay: 5s;
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+.animate-border {
+  animation: rotate 8s linear infinite;
+  background: linear-gradient(var(--angle), #10b981 0%, #14b8a6 50%, #10b981 100%);
+}
+
+.mask-button {
+  mask: linear-gradient(90deg, #000 70%, transparent);
+  -webkit-mask: linear-gradient(90deg, #000 70%, transparent);
+}
